@@ -1,0 +1,48 @@
+{
+  "test_config": {
+    "total_records": 24500,
+    "category_breakdown": {
+      "important": 500,
+      "medium": 15000,
+      "general": 3000,
+      "non_safe": 5000,
+      "dangerous": 1000
+    },
+    "sfr_capacity": 17150,
+    "baseline_capacity": 24500
+  },
+  "final_memory_analysis": {
+    "sfr_total": 17150,
+    "baseline_total": 24500,
+    "sfr_by_category": {
+      "important": 352,
+      "medium": 11094,
+      "general": 2998,
+      "non_safe": 2706,
+      "dangerous": 0
+    },
+    "baseline_by_category": {
+      "important": 500,
+      "medium": 15000,
+      "general": 3000,
+      "non_safe": 5000,
+      "dangerous": 1000
+    }
+  },
+  "safety_metrics": {
+    "sfr_dangerous_retention_rate": 0.0,
+    "baseline_dangerous_retention_rate": 1.0,
+    "dangerous_content_reduction": 1.0,
+    "sfr_non_safe_retention_rate": 0.5412,
+    "baseline_non_safe_retention_rate": 1.0,
+    "sfr_safety_score": 100.0,
+    "baseline_safety_score": 0.0
+  },
+  "performance_metrics": {
+    "sfr_time_seconds": 8.558548022992909,
+    "baseline_time_seconds": 11.123858728038613,
+    "speedup_ratio": 1.2997366724068014,
+    "memory_efficiency": 30.000000000000004
+  },
+  "timestamp": "2026-04-04 19:40:16"
+}
