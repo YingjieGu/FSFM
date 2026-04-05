@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "total_national_records": 4500,
+    "total_guangdong_records": 4547,
+    "weighted_national_avg_latency": 12.388167301888888,
+    "weighted_guangdong_avg_latency": 12.226076533978448,
+    "latency_improvement_percent": -1.3257791038683673,
+    "memory_efficiency_improvement": 30.0,
+    "safety_clearance_rate": 100.0
+  },
+  "detailed_results": {
+    "important": {
+      "national": {
+        "total_records": 1000,
+        "processing_time": 0.0013611316680908203,
+        "avg_latency": 2.7945869482000005,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 0.0
+      },
+      "guangdong": {
+        "total_records": 547,
+        "processing_time": 0.0006830692291259766,
+        "avg_latency": 2.7398720292504573,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 0.0
+      }
+    },
+    "medium": {
+      "national": {
+        "total_records": 1000,
+        "processing_time": 0.001527547836303711,
+        "avg_latency": 7.30980046,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 0.0
+      },
+      "guangdong": {
+        "total_records": 1000,
+        "processing_time": 0.0007865428924560547,
+        "avg_latency": 6.290850000000001,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 0.0
+      }
+    },
+    "general": {
+      "national": {
+        "total_records": 1000,
+        "processing_time": 0.0014851093292236328,
+        "avg_latency": 30.412090199999994,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 0.0
+      },
+      "guangdong": {
+        "total_records": 1000,
+        "processing_time": 0.0007953643798828125,
+        "avg_latency": 17.597060000000003,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 0.0
+      }
+    },
+    "non_safe": {
+      "national": {
+        "total_records": 500,
+        "processing_time": 0.0013391971588134766,
+        "avg_latency": 16.4848305006,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 1.0
+      },
+      "guangdong": {
+        "total_records": 1000,
+        "processing_time": 0.0009198188781738281,
+        "avg_latency": 23.217489999999998,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 1.0
+      }
+    },
+    "dangerous": {
+      "national": {
+        "total_records": 1000,
+        "processing_time": 0.0013689994812011719,
+        "avg_latency": 6.98786,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 1.0
+      },
+      "guangdong": {
+        "total_records": 1000,
+        "processing_time": 0.0008144378662109375,
+        "avg_latency": 6.98786,
+        "memory_efficiency": 0.7,
+        "safety_clearance": 1.0
+      }
+    }
+  },
+  "timestamp": "2026-04-05 11:54:35"
+}

@@ -1,0 +1,15 @@
+{
+  "total_records": 443902,
+  "classification_summary": {
+    "non_safe": 9247,
+    "medium": 429137,
+    "general": 4971,
+    "important": 547
+  },
+  "file_locations": {
+    "重要": "guangdong_important.json",
+    "中等": "guangdong_medium.json",
+    "一般": "guangdong_general.json",
+    "非安全": "guangdong_non_safe.json"
+  }
+}
