@@ -7,13 +7,13 @@
 
 ## Overview
 
-FSFM (Forgetting to Remember More) is a comprehensive selective forgetting framework for Large Language Model (LLM) agents that draws direct parallels from human cognitive processes including hippocampal memory indexing/consolidation theory and Ebbinghaus's forgetting curve.
+FSFM (Forgetting to Remember More) is a comprehensive selective forgetting framework for Large Language Model (LLM) agents that draws direct parallels from human cognitive processes including hippocampal memory indexing/consolidation theory [26, 29] and Ebbinghaus's forgetting curve [27].
 
 This framework demonstrates that **in resource-constrained environments, a well-designed forgetting mechanism is as crucial as memory retention** for achieving optimal performance across three key dimensions:
 
-1. **Computational and Storage Efficiency** through intelligent memory pruning
-2. **Enhanced Personalization** via dynamic updating of outdated user preferences  
-3. **Robust Security** through active forgetting of malicious inputs and sensitive data
+1. **Computational and Storage Efficiency** through intelligent memory pruning [21, 22]
+2. **Enhanced Personalization** via dynamic updating of outdated user preferences [15, 18]  
+3. **Robust Security** through active forgetting of malicious inputs and sensitive data [31, 32, 33]
 
 ## Experimental Results
 
@@ -55,7 +55,7 @@ Building upon our successful single-province validation, we conducted a comprehe
 ### Core Components
 
 1. **Memory Manager**: Implements core memory management with importance scoring
-2. **Forgetting Strategies**: Multiple biologically-inspired forgetting mechanisms
+2. **Forgetting Strategies**: Multiple biologically-inspired forgetting mechanisms categorized into passive decay-based, active deletion-based, safety-triggered, and adaptive reinforcement-based approaches [3, 6, 7]
 3. **Multi-Layer Architecture**: Hierarchical memory structure (sensory, working, long-term)
 4. **Context-Aware Policies**: Adaptive forgetting based on temporal, environmental, and social context
 
@@ -220,7 +220,7 @@ print(f"Speedup Ratio: {results['comparative_metrics']['speedup_ratio']:.2f}x")
 - Bias detection and correction mechanisms
 
 ### Legal Compliance
-- GDPR "Right to be Forgotten" automated implementation
+- GDPR "Right to be Forgotten" automated implementation [59]
 - CCPA data minimization compliance
 - Industry-specific regulatory adherence
 
@@ -237,12 +237,16 @@ If you use this framework in your research, please cite our paper:
 
 ```
 @article{gu2026forgetting,
-  title={Forgetting to Remember More: A Biologically-Inspired Selective Forgetting Framework for LLM Agents},
-  author={Gu, Yingjie},
+  title={Optimized Forgetting to Remember More: A Biologically-Inspired Framework for Selective Forgetting of Memory (FSFM)},
+  author={Gu, Yingjie and Xiong, Bo and Guo, Yijuan and Li, Chao and Zhang, Xiaojing and Sun, Qi and Ma, Jingyao and Shi, Shidang},
   journal={arXiv preprint arXiv:2604.xxxxx},
   year={2026}
 }
 ```
+
+## Related Work
+
+Our work builds upon and extends recent advances in LLM agent architectures [14, 16, 17] and vector database technologies [23, 24, 25]. It innovatively bridges the gap between cognitive neuroscience [9, 10, 11] and artificial intelligence systems, aligning with emerging research directions in AI-Native Memory systems [11, 12] and responsible AI development [56, 57].
 
 ## License
 
